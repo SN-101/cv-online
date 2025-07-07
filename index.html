@@ -1,224 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Online</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="Icon.webp" type="icon_path">
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-    <!-- <script defer src="js/bootstrap.bundle.min.js"></script> -->
-    <!-- <script defer src="js/jquery-3.7.1.min.js"></script> -->
-    <!-- <script defer src="js/popper.min.js"></script> -->
-    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script defer async src="https://www.googletagmanager.com/gtag/js?id=G-0LFKFW9F7B"></script>
-    <script defer>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-0LFKFW9F7B');
-    </script>
+    <title>Samir Nassiri CV Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
-<body class="bg-body-secondary">
-    <div class="">
-        <div class="row p-0 m-0">
-            <header class="col-12 bg-secondary d-flex justify-content-between align-items-center m-0"
-                style="height: 60px;">
-                <div>
-                    <a class="link-underline text-decoration-none text-white fw-bolder" href="index.html">Samir
-                        Nassiri</a>
-                </div>
-                <ul class="d-flex list-unstyled text-white m-1">
-                    <li><button class="btn btn-outline-dark m-1 text-white active">CV</button>
-                    </li>
-                    <li><button class="btn btn-outline-dark m-1 text-white" data-bs-toggle="offcanvas"
-                            data-bs-target="#Educations" aria-controls="offcanvasExample">Educations</button>
-                    </li>
-                    <li><button class="btn btn-outline-dark m-1 text-white" data-bs-toggle="offcanvas"
-                            data-bs-target="#skills" aria-controls="offcanvasExample">Skills</button>
-                    </li>
-
-                </ul>
-            </header>
-
-
-            <aside> <!--  skiils -->
-                <div class="offcanvas offcanvas-end w-1 bg-body-secondary" tabindex="-1" id="skills"
-                    aria-labelledby="offcanvasExampleLabel" style="width: 50%;">
-                    <div class="offcanvas-header">
-                        <h3 class="offcanvas-title  m-auto ps-5" id="offcanvasExampleLabel">Skills</h3>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body p-4">
-                        <h5>HTML</h5>
-                        <h5>CSS & SASS</h5>
-                        <h5>Bootstrap</h5>
-                        <h5>Tailwind CSS</h5>
-                        <h5>Git & Github</h5>
-                        <h5>C</h5>
-                        <h5>Python & OOP</h5>
-                        <h5>Javascript</h5>
-                        <h5>Responive Design</h5>
-                        <h5>Communication</h5>
-                        <h5>Discipline</h5>
-                        <h5>Punctual</h5>
-                        <h5>Adaptability & Continuous Learning</h5>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-outline-accent active" data-lang="en">EN</button>
+                        <button type="button" class="btn btn-outline-accent" data-lang="fr">FR</button>
+                        <button type="button" class="btn btn-outline-accent" data-lang="ar">AR</button>
                     </div>
                 </div>
-            </aside>
-
-            <aside> <!--  Educations -->
-                <div class="offcanvas offcanvas-end bg-body-secondary" tabindex="-1" id="Educations"
-                    aria-labelledby="offcanvasExampleLabel" style="width: 50%;">
-                    <div class="offcanvas-header">
-                        <h3 class="offcanvas-title m-auto ps-5" id="offcanvasExample">Educations</h3>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body pt-5">
-                        <div>
-                            <h5>Baccalaureate Certificate (2020)</h5>
-                            <p class="ps-3">I got my Baccalaureate in 2020</p>
-                        </div>
-
-                        <div>
-                            <h5>HTML Advanced Certification course from Programing Hub (June 2024)</h5>
-                            <p class="ps-3">succefuly completed the HTML Certification course</p>
-                        </div>
-
-                        <div>
-                            <h5>CSS Certification course from Programing Hub (June 2024)</h5>
-                            <p class="ps-3">succefuly completed the CSS Certification course</p>
-                        </div>
-
-                        <div>
-                            <h5>Python Certificate course from Programin Hub (December 2024)</h5>
-                            <p class="ps-3">succefuly completed the Python Certification course</p>
-                        </div>
-                        <div>
-                            <h5>Responsive Web Design Certification from FreeCodeCamp (march 2025)</h5>
-                            <p class="ps-3">successfully completed the Responsive Web Design Developer Certification representing approximately 300 hours of work</p>
-                        </div>
-
-                    </div>
-                </div>
-            </aside>
-
-
-            <main class="col bg-dark-subtle m-2 rounded-5 p-3 " style="height: fit-content; line-height: 30px;">
-                <div class="d-flex fd-column align-items-center flex-column mb-5">
-                    <h2 class="fw-bolder" style="letter-spacing: 3px;">SAMIR NASSIRI</h2>
-                    <h5 class="">Front-End Devlopper</h5>
-                </div>
-                <div class="align-self-start text-capitalize fw-bolder">
-                    <p class="lh-1"><strong class="fs-5 ps-3" style="letter-spacing: 3px;">SUMMARY
-                            <hr>
-                        </strong>
-                        Passionate and detail-oriented Front-End Developer with a strong foundation in web development and user interface
-                        design. Proficient in HTML and CSS, with a growing expertise in JavaScript. Skilled in crafting responsive, visually
-                        appealing, and user-friendly websites. Seeking an internship opportunity to apply and enhance my skills in performance
-                        optimization, user experience, and cross-browser compatibility. Dedicated to continuous learning and improvement in the
-                        field of web development.</p>
-                </div>
-
-                <div class="align-self-start text-capitalize">
-                    <p><strong class="fs-5 ps-3" style="letter-spacing: 3px; font-weight: 800;">PROJECTS
-                            <hr>
-                        </strong>
-                        <em class="fw-bolder">Quotes:</em> It's a fairly simple App written with Python using web
-                        scraping technology where it takes
-                        quotes from a <a class="text-decoration-none" href="https://www.goodreads.com"
-                            target="_blank">goodreads</a> and gives you a random quote based on the type of
-                        your choice (love, life, funny ... ).
-                        <a class="text-decoration-none text-success" style="font-weight: 700;"
-                            href="https://github.com/SN-101/Random-Quotes/blob/master/Quotes.py" target="_blank">Random
-                            Quotes</a>
-                    </p>
-                    <p>
-                        <em class="fw-bolder ps-3">Portfolio:</em> This is my personal website which I designed using
-                        HTML and CSS only and it is also
-                        responsive to all screen sizes, there is also animations.
-                        <a class="text-decoration-none text-success" href="https://sn-101.github.io/portfolio"
-                            style="font-weight: 700;" target="_blank">Portfolio</a>
-                    </p>
-                    <p>
-                        <em class="fw-bolder ps-3">CV Online:</em> it is a website resume created using HTML and
-                        BOOTSTRAP it also responsive to all devices and simple understand <a
-                            class="text-decoration-none text-success" style="font-weight: 700;"
-                            href="https://github.com/SN-101/CV-Online/blob/main/index.html" target="_blank">CV
-                            Online</a>
-                    </p>
-                </div>
-                <div class="align-self-start text-capitalize">
-                    <p><strong class="fs-5" style="letter-spacing: 3px; font-weight: 800;">LANGUAGES
-                            <hr>
-                        </strong>
-                    <div class="d-flex justify-content-evenly">
-                        <div><strong>Arabic:</strong> Native</div>
-                        <div><strong>English:</strong> Good</div>
-                        <div><strong>Frensh:</strong> Basic</div>
-                    </div>
-                    </p>
-
-                </div>
-                <div class="align-self-start text-capitalize">
-                    <p><strong class="fs-5" style="letter-spacing: 3px; font-weight: 800;">Career Goals
-                            <hr>
-                        </strong>
-                    <div class="d-flex justify-content-evenly">
-                        <p>Seeking an opportunity to join a dynamic team where I can apply my <i>front-end development</i>
-                            skills, gain hands-on
-                            experience in real-world projects, and further enhance my technical expertise in <em>JavaScript</em>
-                            and modern frameworks. Open
-                            to internships, freelance work, and collaborative projects.</p>
-                    </div>
-                    </p>
-
-                </div>
-            </main>
-
-
-            <footer class="col-12 p-0 " style="height: 100px;">
-                <div class=" card text-center bg-black h-100">
-                    <div class="card-body d-flex justify-content-center align-items-center column-gap-3">
-                        <h6 class="card-title text-white">CV Online</h6>
-                        <h6 class="card-text text-white">&copy; 2025 All right are reserved</h6>
-                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100012347191209"
-                            class="btn btn-dark"><i class="fa-brands fa-facebook-f"></i></a>
-
-                        <a target="_blank" href="https://instagram.com/_sanrami_/" class="btn btn-dark"><i
-                                class="fa-brands fa-instagram"></i></a>
-
-                        <a target="_blank" href="https://wa.me/+212695901226" class="btn btn-dark"><i
-                                class="fa-brands fa-whatsapp"></i></a>
-
-                        <a target="_blank" href="https://x.com/S_N1720" class="btn btn-dark"><i
-                                class="fa-brands fa-x-twitter"></i></a>
-
-                        <a target="_blank" href="https://github.com/SN-101" class="btn btn-dark"><i
-                                class="fa-brands fa-github"></i></a>
-
-                        <a target="_blank" href="https://linkedin.com/in/samir-nassiri-ba4638282/"
-                            class="btn btn-dark"><i class="fa-brands fa-linkedin"></i></a>
-                        <a target="_blank" href="mailto:samienassiri67@gmail.com" class="btn btn-dark"><i
-                                class="fa-solid fa-envelope"></i></a>
-
-                    </div>
-                </div>
-            </footer>
+            </div>
         </div>
     </div>
+
+    <!-- Main Container -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-lg-4 sidebar">
+                <div class="profile-section">
+                    <div class="profile-placeholder">
+                        <!-- <i class="fas fa-user-tie"></i> -->
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="80px" height="80px"
+                        viewBox="300 1230 3800 3800" preserveAspectRatio="xMidYMid meet">
+                        <g transform="translate(0.000000,6250.000000) scale(0.100000,-0.100000)" fill="#fff" stroke="none">
+                            <path d="M19620 49673 c-144 -6 -557 -44 -755 -69 -1461 -184 -2788 -694
+                    -3872 -1486 -646 -472 -1220 -1078 -1624 -1714 -536 -844 -828 -1775 -855
+                    -2729 -21 -692 93 -1389 326 -2006 641 -1694 2207 -3146 4785 -4437 511 -255
+                    1150 -547 1625 -742 584 -239 1289 -559 1860 -845 1753 -877 3191 -1837 4375
+                    -2920 232 -212 648 -631 852 -858 945 -1049 1621 -2176 2017 -3359 233 -695
+                    358 -1325 418 -2108 17 -224 17 -991 0 -1180 -30 -329 -64 -580 -118 -855 -27
+                    -140 -112 -491 -124 -514 -5 -9 -112 136 -322 435 -173 247 -1491 2128 -2928
+                    4179 -1438 2052 -3076 4389 -3641 5195 l-1026 1465 -2909 0 c-2728 0 -2920 -1
+                    -3084 -18 -345 -35 -596 -79 -915 -158 -1541 -384 -2894 -1370 -3864 -2814
+                    -847 -1261 -1351 -2796 -1452 -4421 -16 -261 -7 -1093 15 -1349 160 -1864 793
+                    -3522 1916 -5020 285 -380 540 -674 904 -1043 1189 -1204 2663 -2126 4369
+                    -2731 802 -285 1723 -506 2611 -626 l48 -7 -5 -651 c-6 -793 -25 -1068 -103
+                    -1522 -85 -492 -258 -935 -471 -1202 -312 -393 -734 -585 -1365 -625 l-188
+                    -12 0 -63 0 -63 2355 0 2355 0 0 64 0 63 -142 7 c-799 40 -1301 342 -1613 971
+                    -276 556 -385 1288 -385 2588 0 379 1 397 18 397 11 0 115 -9 233 -20 608 -55
+                    1025 -72 1528 -59 459 11 766 33 1216 85 1209 140 2391 461 3437 935 812 368
+                    1570 829 2194 1334 l51 41 -409 560 c-225 307 -414 567 -421 577 -11 17 -20
+                    11 -102 -64 -1190 -1079 -2755 -1804 -4552 -2109 -577 -98 -1049 -142 -1747
+                    -161 -520 -15 -1197 3 -1408 37 l-38 6 0 7561 c0 7384 0 7561 19 7542 10 -11
+                    1302 -1847 2872 -4080 1569 -2233 3922 -5581 5229 -7440 1307 -1859 3237
+                    -4605 4290 -6103 1052 -1497 1918 -2721 1922 -2720 5 2 155 179 334 393 l324
+                    389 0 9131 c0 5842 4 9222 10 9385 48 1240 275 1980 745 2428 56 54 140 123
+                    187 155 101 68 278 153 407 197 188 64 476 110 683 110 l108 0 0 65 0 65
+                    -2335 0 -2335 0 0 -65 0 -65 113 0 c62 0 167 -7 234 -15 484 -60 837 -227
+                    1094 -518 396 -447 593 -1147 639 -2267 8 -188 10 -2430 8 -7672 l-3 -7406
+                    -1725 2455 c-949 1351 -1728 2461 -1732 2467 -3 6 45 106 108 221 399 729 702
+                    1479 924 2285 375 1354 503 2817 379 4300 -168 2016 -846 3616 -2151 5075
+                    -156 175 -519 542 -699 707 -1327 1217 -3192 2376 -5744 3568 -214 100 -399
+                    186 -410 190 -109 42 -957 456 -1350 658 -1702 875 -2907 1650 -3845 2471
+                    -175 153 -603 575 -734 725 -743 846 -1140 1690 -1238 2636 -20 197 -17 713 5
+                    885 92 704 347 1315 767 1840 831 1036 2232 1650 4005 1756 244 14 843 14
+                    1095 0 2541 -146 4592 -1246 5673 -3043 501 -834 779 -1790 837 -2873 5 -104
+                    10 -234 10 -287 l0 -98 225 0 225 0 0 2290 0 2290 -219 0 -218 0 -7 -37 c-3
+                    -21 -6 -94 -6 -163 0 -429 -85 -762 -213 -840 -99 -61 -248 -23 -424 109 -105
+                    77 -207 181 -392 396 -489 569 -1061 1039 -1738 1429 -1171 672 -2548 1062
+                    -4021 1136 -182 9 -810 11 -1002 3z m-2662 -14789 c398 -157 676 -407 886
+                    -798 188 -349 318 -876 371 -1506 35 -420 36 -642 33 -7616 l-3 -6870 -185 23
+                    c-663 82 -1465 265 -2150 488 -1693 553 -3233 1511 -4364 2714 -288 307 -473
+                    526 -697 826 -899 1203 -1455 2536 -1673 4010 -73 490 -109 1188 -87 1675 73
+                    1639 548 3147 1383 4398 719 1077 1676 1875 2769 2310 514 205 1015 317 1634
+                    365 22 2 485 4 1028 5 l989 2 66 -26z" />
+                        </g>
+                    </svg>
+                    </div>
+                    <h1 class="profile-name" data-key="name">Loading...</h1>
+                    <p class="profile-title" data-key="title">Loading...</p>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="section">
+                    <h3 class="section-title" data-key="contact">Loading...</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span data-key="email">Loading...</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span data-key="phone">Loading...</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span data-key="location">Loading...</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <span data-key="website">Loading...</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span data-key="linkedin">Loading...</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span data-key="github">Loading...</span>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="section">
+                    <h3 class="section-title" data-key="skills">Loading...</h3>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h4 data-key="technical_skills">Loading...</h4>
+                            <div class="skills-list" id="technical-skills">
+                                <!-- Skills will be populated by JavaScript -->
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4 data-key="soft_skills">Loading...</h4>
+                            <div class="skills-list" id="soft-skills">
+                                <!-- Skills will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="section">
+                    <h3 class="section-title" data-key="languages">Loading...</h3>
+                    <div id="languages-list">
+                        <!-- Languages will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-lg-8 main-content">
+                <!-- Summary -->
+                <div class="section">
+                    <h2 class="section-title" data-key="summary">Loading...</h2>
+                    <p class="summary-text" data-key="summary_text">Loading...</p>
+                </div>
+
+                <!-- Experience -->
+                <div class="section">
+                    <h2 class="section-title" data-key="experience">Loading...</h2>
+                    <div id="experience-list">
+                        <!-- Experience will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="section">
+                    <h2 class="section-title" data-key="education">Loading...</h2>
+                    <div id="education-list">
+                        <!-- Education will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Projects -->
+                <div class="section">
+                    <h2 class="section-title" data-key="projects">Loading...</h2>
+                    <div id="projects-list">
+                        <!-- Projects will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="section">
+                    <h2 class="section-title" data-key="certifications">Loading...</h2>
+                    <div id="certifications-list">
+                        <!-- Certifications will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

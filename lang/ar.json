@@ -1,0 +1,146 @@
+{
+  "name": "سمير ناصيري",
+  "title": "مطور واجهة أمامية",
+  "email": "samirnassiri67@gmail.com",
+  "phone": "+212 695-901226",
+  "location": "بوسكورة, الدار البيضاء, المغرب",
+  "website": "www.alexthompson.dev",
+  "linkedin": "https://www.linkedin.com/in/samir-nassiri-ba4638282/",
+  "github": "https://www.github.com/sn-101",
+  "contact": "التواصل",
+  "skills": "المهارات",
+  "technical_skills": "المهارات التقنية",
+  "soft_skills": "المهارات الشخصية",
+  "languages": "اللغات",
+  "summary": "الملخص المهني",
+  "experience": "الخبرة المهنية",
+  "education": "التعليم",
+  "projects": "المشاريع",
+  "certifications": "الشهادات",
+  "summary_text": "مطور واجهة أمامية شغوف، دقيق في التفاصيل، يتمتع بأساس متين في تقنيات الويب الحديثة وتصميم واجهات المستخدم. يتقن HTML وCSS والتصميم المتجاوب، ولديه خبرة متزايدة في JavaScript وPython. بارع في بناء واجهات ويب واضحة وسهلة الوصول. أبحث عن تدريب عملي للمساهمة في مشاريع عملية، مع توسيع خبرتي في تجربة المستخدم، وتحسين الأداء، والتوافق بين المتصفحات.",
+  "skills_data": {
+    "technical": [
+      "JavaScript",
+      "Python",
+      "HTML5",
+      "CSS3",
+      "SASS",
+      "Bootstrap",
+      "Tailwind CSS",
+      "MySQL",
+      "Git",
+      "Github"
+    ],
+    "soft": [
+      "إدارة المشاريع",
+      "التواصل",
+      "التوجيه",
+      "الدقة",
+      "الانضباط",
+      "الرغبة في التعلم"
+    ]
+  },
+  "languages_data": [
+    { "name": "الإنجليزية", "level": "بطلاقة" },
+    { "name": "العربية", "level": "اللغة الأم" },
+    { "name": "الفرنسية", "level": "محادثة" }
+  ],
+  "experience_data": [
+    {
+      "position": "تدريب مطور الواجهة الأمامية",
+      "company": "بلدية قصر تولال",
+      "location": "نولال, مكناس",
+      "period": "ماي 19, 2025 - يونيو 17, 2025",
+      "description": "تدريب داخلي داخل بلدية قصر تولال، حيث شاركت رفقة زميلي في تصميم وتطوير الواجهة الأمامية للموقع الرسمي للبلدية باستخدام HTML وCSS وJavaScript. يدعم الموقع أربع لغات (العربية، الفرنسية، الإنجليزية، الأمازيغية) عبر بنية ديناميكية تعتمد على JSON لإدارة التعدد اللغوي، دون استخدام أي إطار خارجي مثل Bootstrap.",
+      "achievements": [
+        "بدأتُ بتطوير الموقع الإلكتروني الرسمي للبلدية، الذي لم يكن متاحًا على الإنترنت سابقًا.",
+        "صممتُ الموقع باستخدام لغات HTML وCSS وJS وJSON، بالإضافة إلى مبادئ التصميم المتجاوب.",
+        "واصلتُ العمل على الموقع بعد انتهاء فترة تدريبي الرسمي لتقديم حل شامل وسهل الاستخدام.",
+        "اكتسبتُ خبرة عملية في مجال التحول الرقمي في القطاع العام وإشراك المواطنين."
+      ]
+    }
+  ],
+  "education_data": [
+    {
+      "degree": "بكالوريا في علوم الفيزياء",
+      "school": "أبو حيان التوحيدي",
+      "location": "بوسكورة, الدار البيضاء",
+      "period": "2019 - 2020"
+    }
+  ],
+  "projects_data": [
+    {
+      "name": "اقتباسات عشوائي",
+      "description": "تطوير تطبيق مكتبي بسيط بلغة Python، يعرض اقتباسات تحفيزية بشكل عشوائي عند كل نقرة. تم استخدام مكتبة Tkinter لإنشاء واجهة المستخدم الرسومية، ثم تحويل المشروع إلى ملف تنفيذي (.exe) متوافق مع نظام Windows.",
+      "technologies": ["Python"],
+      "urlgit": "github.com/SN-101/Random-Quotes/blob/master/Quotes.py",
+      "urlsite": "github.com/SN-101/Random-Quotes/blob/master/dist/Quotes.exe"
+    },
+    {
+      "name": "موقعي الشخصي القديم",
+      "description": "إنشاء موقع بورتفوليو شخصي ثابت باستخدام HTML وCSS فقط. يُبرز الموقع معلوماتي الشخصية ومهاراتي ومشاريعي بشكل واضح ومتجاوب، دون الاعتماد على JavaScript أو أي إطار عمل خارجي.",
+      "technologies": ["HTML", "CSS"],
+      "urlgit": "municipality-of-ksar-toulal.github.io/front-end",
+      "urlsite": "sn-101.github.io/portfolio/"
+    },
+    {
+      "name": "لعبة الطفولة",
+      "description": "تطوير موقع صغير تفاعلي مستوحى من ألعاب الطفولة، باستخدام HTML وCSS وJavaScript فقط. يهدف المشروع إلى تقديم تجربة مستخدم بسيطة ومرحة تحمل طابعاً طفولياً، من خلال الرسوميات البسيطة والتفاعلات السلسة.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "urlgit": "github.com/SN-101/Childhood-Game",
+      "urlsite": "sn-101.github.io/Childhood-Game/"
+    },
+    {
+      "name": "موقع بلدية قصر تولال",
+      "description": "تطوير الواجهة الأمامية للموقع الرسمي لبلدية قصر تولال. الموقع متعدد اللغات (العربية، الفرنسية، الإنجليزية، الأمازيغية) وتم تصميمه باستخدام HTML وCSS وJavaScript وJSON لإدارة التعدد اللغوي.",
+      "technologies": ["HTML", "CSS", "Javascript", "JSON"],
+      "urlgit": "municipality-of-ksar-toulal.github.io/front-end",
+      "urlsite": "github.com/municipality-of-ksar-toulal/front-end"
+    },
+    {
+      "name": "موقع بلدية قصر تولال",
+      "description": "تطوير الواجهة الأمامية للموقع الرسمي لبلدية قصر تولال. الموقع متعدد اللغات (العربية، الفرنسية، الإنجليزية، الأمازيغية) وتم تصميمه باستخدام HTML وCSS وJavaScript وJSON لإدارة التعدد اللغوي.",
+      "technologies": ["HTML", "CSS", "Javascript", "JSON"],
+      "urlgit": "municipality-of-ksar-toulal.github.io/front-end",
+      "urlsite": "github.com/municipality-of-ksar-toulal/front-end"
+    }
+  ],
+  "certifications_data": [
+    {
+      "name": "شهادة التسويق الرقمي",
+      "issuer": "Google",
+      "date": "أكتوبر 2023",
+      "credential": "173490612"
+    },
+    {
+      "name": "شهادة HTML المتقدمة",
+      "issuer": "Programming Hub",
+      "date": "ماي 2025",
+      "credential": "1747324188449"
+    },
+    {
+      "name": "شهادة CSS",
+      "issuer": "Programming Hub",
+      "date": "ماي 2025",
+      "credential": "1747323839213"
+    },
+    {
+      "name": "شهادة Javascript",
+      "issuer": "Programming Hub",
+      "date": "ماي 2025",
+      "credential": "1747337342395"
+    },
+    {
+      "name": "شهادة Python",
+      "issuer": "Programming Hub",
+      "date": "نوفمبر 2023",
+      "credential": "1732648010444"
+    },
+    {
+      "name": "شهادة تصميم الويب المتجاوب",
+      "issuer": "FreeCodeCamp",
+      "date": "مارس 2025",
+      "credential": "freecodecamp.org/certification/SN101/responsive-web-design"
+    }
+  ]
+}

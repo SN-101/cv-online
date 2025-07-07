@@ -1,0 +1,150 @@
+{
+  "name": "Samir Nassiri",
+  "title": "Jeniur Front-End Developer",
+  "email": "samirnassiri67@gmail.com",
+  "phone": "+212 695-901226",
+  "location": "Bouskoura, Casablanca, Morocco",
+  "website": "www.alexthompson.dev",
+  "linkedin": "https://www.linkedin.com/in/samir-nassiri-ba4638282/",
+  "github": "https://www.github.com/sn-101",
+  "contact": "Contact",
+  "skills": "Skills",
+  "technical_skills": "Technical Skills",
+  "soft_skills": "Soft Skills",
+  "languages": "Languages",
+  "summary": "Professional Summary",
+  "experience": "Work Experience",
+  "education": "Education",
+  "projects": "Projects",
+  "certifications": "Certifications",
+  "summary_text": "Passionate and detail-oriented Front-End Developer with a solid foundation in modern web technologies and UI design. Proficient in HTML, CSS, and responsive design, with growing experience in JavaScript and Python. Adept at building clean, accessible, and user-friendly web interfaces. Seeking an internship to contribute to real-world projects while expanding expertise in UX, performance optimization, and cross-browser compatibility.",
+  "skills_data": {
+    "technical": [
+      "JavaScript",
+      "Python",
+      "HTML5",
+      "CSS3",
+      "SASS",
+      "Bootstrap",
+      "Tailwind CSS",
+      "MySQL",
+      "Git",
+      "Github"
+    ],
+    "soft": [
+      "Project Management",
+      "Communication",
+      "Mentoring",
+      "Punctual",
+      "Disciplined",
+      "Eager to Learn"
+    ]
+  },
+  "languages_data": [
+    { "name": "English", "level": "Fluent" },
+    { "name": "Arabic", "level": "Native" },
+    { "name": "French", "level": "Basic" }
+  ],
+  "experience_data": [
+    {
+      "position": "Intetnship Fron-End Developer",
+      "company": "Municipality of ksar Toullal",
+      "location": "Toulal, Meknes",
+      "period": "May 19, 2025 – June 17, 2025",
+      "description": "Internal internship at the Municipality of Ksar Toulal. Together with a colleague, I designed and developed the front-end of the official municipal website using HTML, CSS, and JavaScript. The site supports four languages (Arabic, French, English, and Amazigh) through a dynamic multilingual structure using JSON, without relying on external frameworks such as Bootstrap.",
+      "achievements": [
+        "Initiated the development of the official website for the Municipality, which previously had no digital presence.",
+        "Built the website using HTML, CSS, JS, JSON and responsive design principles.",
+        "Continued working on the site after the official internship period, aiming to deliver a complete, accessible solution.",
+        "Gained firsthand experience in public sector digital transformation and civic engagement."
+      ]
+    }
+  ],
+  "education_data": [
+    {
+      "degree": "Baccalaureate of Science in Physics",
+      "school": "Abou Hayan Tawhidi",
+      "location": "Bouskoura, Casablanca",
+      "period": "2019 - 2020"
+    }
+  ],
+  "projects_data": [
+    {
+      "name": "Random Quotes",
+      "description": "Developed a simple desktop application using Python that displays random motivational quotes on each click. The GUI was built with Tkinter, and the final project was compiled into a Windows executable (.exe).",
+      "technologies": ["Python"],
+      "urlgit": "github.com/SN-101/Random-Quotes/blob/master/Quotes.py",
+      "urlsite": "github.com/SN-101/Random-Quotes/blob/master/dist/Quotes.exe"
+    },
+
+    {
+      "name": "Old Portfolio Personnel",
+      "description": "Developed a personal static portfolio website using only HTML and CSS. The site showcases my profile, skills, and projects in a clean and responsive layout, without any frameworks or JavaScript.",
+      "technologies": ["HTML", "CSS"],
+      "urlgit": "municipality-of-ksar-toulal.github.io/front-end",
+      "urlsite": "sn-101.github.io/portfolio/"
+    },
+
+    {
+      "name": "Childhood Game",
+      "description": "Developed an interactive mini-site inspired by childhood games, using only HTML, CSS, and JavaScript. The goal was to recreate a nostalgic and playful user experience through simple graphics and smooth interactions.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "urlgit": "github.com/SN-101/Childhood-Game",
+      "urlsite": "sn-101.github.io/Childhood-Game/"
+    },
+
+    {
+      "name": "Ksar Toulal Municipality website",
+      "description": "Front-end development of the official website of the Municipality of Ksar Toulal. The site is multilingual (Arabic, French, English, Amazigh) and was built using HTML, CSS, JavaScript, and JSON for language management.",
+      "technologies": ["HTML", "CSS", "Javascript", "JSON"],
+      "urlgit": "municipality-of-ksar-toulal.github.io/front-end",
+      "urlsite": "github.com/municipality-of-ksar-toulal/front-end"
+    },
+
+    {
+      "name": "Ksar Toulal Municipality website",
+      "description": "Front-end development of the official website of the Municipality of Ksar Toulal. The site is multilingual (Arabic, French, English, Amazigh) and was built using HTML, CSS, JavaScript, and JSON for language management.",
+      "technologies": ["HTML", "CSS", "Javascript", "JSON"],
+      "urlgit": "municipality-of-ksar-toulal.github.io/front-end",
+      "urlsite": "github.com/municipality-of-ksar-toulal/front-end"
+    }
+  ],
+  "certifications_data": [
+    {
+      "name": "Digital Marketing Certification",
+      "issuer": "Google",
+      "date": "October 2023",
+      "credential": "173490612"
+    },
+    {
+      "name": "HTML Advanced Certification",
+      "issuer": "Programming Hub",
+      "date": "May 2025",
+      "credential": "1747324188449"
+    },
+    {
+      "name": "CSS Certification",
+      "issuer": "Programming Hub",
+      "date": "May 2025",
+      "credential": "1747323839213"
+    },
+    {
+      "name": "Javascript Certification",
+      "issuer": "Programming Hub",
+      "date": "May 2025",
+      "credential": "1747337342395"
+    },
+    {
+      "name": "Python Certification",
+      "issuer": "Programming Hub",
+      "date": "November 2023",
+      "credential": "1732648010444"
+    },
+    {
+      "name": "Responsive Web Design",
+      "issuer": "FreeCodeCamp",
+      "date": "March 2025",
+      "credential": "freecodecamp.org/certification/SN101/responsive-web-design"
+    }
+  ]
+}
