@@ -4,7 +4,7 @@
   "email": "samirnassiri67@gmail.com",
   "phone": "+212 695-901226",
   "location": "Bouskoura, Casablanca, Morocco",
-  "website": "www.alexthompson.dev",
+  "website": "sn-101.github.io/new-portfolio/",
   "linkedin": "https://www.linkedin.com/in/samir-nassiri-ba4638282/",
   "github": "https://www.github.com/sn-101",
   "contact": "Contact",
@@ -79,7 +79,7 @@
       "name": "Mon ancien site Web personnel",
       "description": "Création d’un site portfolio personnel statique en HTML et CSS. Le site présente mon profil, mes compétences et mes projets de manière claire et responsive, sans utiliser de frameworks ni de JavaScript.",
       "technologies": ["HTML", "CSS"],
-      "urlgit": "municipality-of-ksar-toulal.github.io/front-end",
+      "urlgit": "github.com/SN-101/portfolio/",
       "urlsite": "sn-101.github.io/portfolio/"
     },
     {
@@ -93,15 +93,15 @@
       "name": "Site Internet de la municipalité de Ksar Toulal",
       "description": "Développement de l’interface front-end du site officiel de la commune de Ksar Toulal. Le site est multilingue (arabe, français, anglais, amazigh) et a été conçu à l’aide de HTML, CSS, JavaScript et JSON pour la gestion linguistique.",
       "technologies": ["HTML", "CSS", "Javascript", "JSON"],
-      "urlgit": "municipality-of-ksar-toulal.github.io/front-end",
-      "urlsite": "github.com/municipality-of-ksar-toulal/front-end"
+      "urlgit": "github.com/municipality-of-ksar-toulal/front-end",
+      "urlsite": "municipality-of-ksar-toulal.github.io/front-end"
     },
     {
-      "name": "Site Internet de la municipalité de Ksar Toulal",
-      "description": "Développement de l’interface front-end du site officiel de la commune de Ksar Toulal. Le site est multilingue (arabe, français, anglais, amazigh) et a été conçu à l’aide de HTML, CSS, JavaScript et JSON pour la gestion linguistique.",
+      "name": "Nouveau portefeuille",
+      "description": "Développement d’un nouveau site portfolio personnel en HTML, CSS et JavaScript, avec une interface moderne, interactive et responsive. Ce projet met en avant mes compétences, mes projets réalisés, et ma vision créative en tant que développeur Front-End.",
       "technologies": ["HTML", "CSS", "Javascript", "JSON"],
-      "urlgit": "municipality-of-ksar-toulal.github.io/front-end",
-      "urlsite": "github.com/municipality-of-ksar-toulal/front-end"
+      "urlgit": "github.com/SN-101/new-portfolio",
+      "urlsite": "sn-101.github.io/new-portfolio/"
     }
   ],
   "certifications_data": [
