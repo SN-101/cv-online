@@ -49,7 +49,7 @@
     {
       "position": "تدريب مطور الواجهة الأمامية",
       "company": "بلدية قصر تولال",
-      "location": "نولال, مكناس",
+      "location": "تولال, مكناس",
       "period": "ماي 19, 2025 - يونيو 17, 2025",
       "description": "تدريب داخلي داخل بلدية قصر تولال، حيث شاركت رفقة زميلي في تصميم وتطوير الواجهة الأمامية للموقع الرسمي للبلدية باستخدام HTML وCSS وJavaScript. يدعم الموقع أربع لغات (العربية، الفرنسية، الإنجليزية، الأمازيغية) عبر بنية ديناميكية تعتمد على JSON لإدارة التعدد اللغوي، دون استخدام أي إطار خارجي مثل Bootstrap.",
       "achievements": [
@@ -141,6 +141,12 @@
       "issuer": "FreeCodeCamp",
       "date": "مارس 2025",
       "credential": "freecodecamp.org/certification/SN101/responsive-web-design"
+    },
+    {
+      "name": "شهادة Bootstrap",
+      "issuer": "Programming Hub",
+      "date": "يوليوز 2025",
+      "credential": "1752151474270"
     }
   ]
 }

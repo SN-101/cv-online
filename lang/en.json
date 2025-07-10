@@ -145,6 +145,12 @@
       "issuer": "FreeCodeCamp",
       "date": "March 2025",
       "credential": "freecodecamp.org/certification/SN101/responsive-web-design"
+    },
+    {
+      "name": "Bootstrap Certification",
+      "issuer": "Programming Hub",
+      "date": "july 2025",
+      "credential": "1752151474270"
     }
   ]
 }
