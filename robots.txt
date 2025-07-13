@@ -1,0 +1,3 @@
+User-agent: *           # يعني كل الروبوتات
+Allow: /                # اسمح لها بالزحف إلى كل الموقع
+Sitemap: https://sn-101.github.io/cv-online/sitemap.xml

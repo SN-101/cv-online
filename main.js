@@ -231,3 +231,9 @@ class CVManager {
 document.addEventListener('DOMContentLoaded', () => {
     new CVManager();
 });
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S2K0NW70JT');

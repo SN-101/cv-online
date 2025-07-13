@@ -51,11 +51,12 @@
       "company": "Commune de Ksar Toulal",
       "location": "Toulal, Meknes",
       "period": "19 mai 2025 – 17 juin 2025",
-      "description": "Stage interne au sein de la Commune de Ksar Toulal. En collaboration avec un collègue, j’ai conçu et développé l’interface front-end du site officiel de la municipalité en utilisant HTML, CSS et JavaScript. Le site prend en charge quatre langues (arabe, français, anglais et amazigh) grâce à une structure dynamique basée sur JSON pour la gestion multilingue, sans recours à des frameworks externes comme Bootstrap.",
+      "description": "Stage interne à la municipalité de Ksar Toulal. Avec un collègue, j'ai conçu et développé l'interface du site web officiel de la municipalité en HTML, CSS et JavaScript. Le site est disponible en quatre langues (arabe, français, anglais et amazigh) grâce à une structure multilingue dynamique utilisant JSON, sans recourir à des frameworks externes tels que Bootstrap.",
       "achievements": [
-        "Réduction du temps de chargement des applications de 60% grâce à l'optimisation du code",
-        "Mentorat de 3 développeurs juniors, amélioration de la productivité de l'équipe de 25%",
-        "Implémentation de pipelines CI/CD réduisant le temps de déploiement de 80%"
+        "J'ai initié le développement du site web officiel de la municipalité, qui n'avait auparavant aucune présence numérique.",
+        "J'ai créé le site web en utilisant HTML, CSS, JS, JSON et les principes du responsive design.",
+        "J'ai continué à travailler sur le site après le stage officiel, afin de proposer une solution complète et accessible.",
+        "J'ai acquis une expérience concrète de la transformation numérique du secteur public et de l'engagement citoyen."
       ]
     }
   ],
