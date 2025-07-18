@@ -149,9 +149,11 @@ body {
     font-size: 1rem;
 }
 
-.contact-item span {
+.contact-item a, span {
+    width: 90%;
     font-size: 0.9rem;
     color: var(--text-secondary);
+    text-decoration: none;
 }
 
 /* Skills */
