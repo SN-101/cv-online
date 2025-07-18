@@ -149,7 +149,7 @@ body {
     font-size: 1rem;
 }
 
-.contact-item a, span {
+.contact-item a {
     width: 90%;
     font-size: 0.9rem;
     color: var(--text-secondary);
