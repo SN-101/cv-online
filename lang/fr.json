@@ -29,8 +29,11 @@
       "Bootstrap",
       "Tailwind CSS",
       "MySQL",
+      "XAMPP",
       "Git",
-      "Github"
+      "Github",
+      "PHPMyADMIN",
+      "Access"
     ],
     "soft": [
       "Gestion de projet",
@@ -104,6 +107,22 @@
       "technologies": ["HTML", "CSS", "Javascript", "JSON"],
       "urlgit": "github.com/SN-101/new-portfolio",
       "urlsite": "sn-101.github.io/new-portfolio/"
+    },
+
+    {
+      "name": "EPRIM",
+      "description": "J'ai conçu et développé un site web officiel pour l'École PRofessionnelle d'Informatique et de Management, où j'ai créé une plateforme multilingue et réactive en utilisant React.js, et acquis de l'expérience dans le traitement de React.js.",
+      "technologies": ["React", "Tailwind CSS"],
+      "urlgit": "https://github.com/SN-101/EPRIM",
+      "urlsite": "https://eprim.netlify.app/"
+    },
+
+    {
+      "name": "Boutique en ligne",
+      "description": "J'ai développé un site web e-commerce avec HTML Bootstrap et JS. Il est facile à personnaliser, permet une réservation aisée, comporte plusieurs pages et est multilingue grâce à JSON. De plus, son référencement naturel est optimisé.",
+      "technologies": ["HTML", "CSS", "Bootstrap", "Javascript", "JSON"],
+      "urlgit": "https://github.com/SN-101/online-store",
+      "urlsite": "https://sn-101.github.io/Online-Store/"
     }
   ],
   "certifications_data": [

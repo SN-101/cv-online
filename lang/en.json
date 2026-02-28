@@ -29,8 +29,11 @@
       "Bootstrap",
       "Tailwind CSS",
       "MySQL",
+      "XAMPP",
       "Git",
-      "Github"
+      "Github",
+      "PHPMyADMIN",
+      "Access"
     ],
     "soft": [
       "Project Management",
@@ -42,8 +45,8 @@
     ]
   },
   "languages_data": [
-    { "name": "English", "level": "Fluent" },
     { "name": "Arabic", "level": "Native" },
+    { "name": "English", "level": "Fluent" },
     { "name": "French", "level": "Basic" }
   ],
   "experience_data": [
@@ -74,42 +77,59 @@
       "name": "Random Quotes",
       "description": "Developed a simple desktop application using Python that displays random motivational quotes on each click. The GUI was built with Tkinter, and the final project was compiled into a Windows executable (.exe).",
       "technologies": ["Python"],
-      "urlgit": "github.com/SN-101/Random-Quotes/blob/master/Quotes.py",
-      "urlsite": "github.com/SN-101/Random-Quotes/blob/master/dist/Quotes.exe"
+      "urlgit": "https://github.com/SN-101/Random-Quotes/blob/master/Quotes.py",
+      "urlsite": "https://github.com/SN-101/Random-Quotes/blob/master/dist/Quotes.exe"
     },
 
     {
       "name": "Old Portfolio Personnel",
       "description": "Developed a personal static portfolio website using only HTML and CSS. The site showcases my profile, skills, and projects in a clean and responsive layout, without any frameworks or JavaScript.",
       "technologies": ["HTML", "CSS"],
-      "urlgit": "github.com/SN-101/portfolio/",
-      "urlsite": "sn-101.github.io/portfolio/"
+      "urlgit": "https://github.com/SN-101/portfolio/",
+      "urlsite": "https://sn-101.github.io/portfolio/"
     },
 
     {
       "name": "Childhood Game",
       "description": "Developed an interactive mini-site inspired by childhood games, using only HTML, CSS, and JavaScript. The goal was to recreate a nostalgic and playful user experience through simple graphics and smooth interactions.",
       "technologies": ["HTML", "CSS", "Javascript"],
-      "urlgit": "github.com/SN-101/Childhood-Game",
-      "urlsite": "sn-101.github.io/Childhood-Game/"
+      "urlgit": "https://github.com/SN-101/Childhood-Game",
+      "urlsite": "https://sn-101.github.io/Childhood-Game/"
     },
 
     {
       "name": "Ksar Toulal Municipality website",
       "description": "Front-end development of the official website of the Municipality of Ksar Toulal. The site is multilingual (Arabic, French, English, Amazigh) and was built using HTML, CSS, JavaScript, and JSON for language management.",
       "technologies": ["HTML", "CSS", "Javascript", "JSON"],
-      "urlgit": "github.com/municipality-of-ksar-toulal/front-end",
-      "urlsite": "municipality-of-ksar-toulal.github.io/front-end"
+      "urlgit": "https://github.com/municipality-of-ksar-toulal/front-end",
+      "urlsite": "https://municipality-of-ksar-toulal.github.io/front-end"
     },
 
     {
       "name": "New Portfolio",
       "description": "Developed a new version of my personal portfolio website using HTML, CSS, and JavaScript, featuring a modern, responsive, and interactive interface. This project highlights my skills, completed projects, and creative vision as a front-end developer.",
       "technologies": ["HTML", "CSS", "Javascript", "JSON"],
-      "urlgit": "github.com/SN-101/new-portfolio",
-      "urlsite": "sn-101.github.io/new-portfolio/"
+      "urlgit": "https://github.com/SN-101/new-portfolio",
+      "urlsite": "https://sn-101.github.io/new-portfolio/"
+    },
+
+    {
+      "name": "EPRIM",
+      "description": "I designed and developed an official website for the Professional School of Computer Science and Management, where I created a multilingual and responsive platform using React.js, and gained experience in dealing with React.js.",
+      "technologies": ["React", "Tailwind CSS"],
+      "urlgit": "https://github.com/SN-101/EPRIM",
+      "urlsite": "https://eprim.netlify.app/"
+    },
+
+    {
+      "name": "Online Store",
+      "description": "I developed an e-commerce website using HTML Bootstrap and JS. It's easy to customize, easy to book, multi-page, and multilingual using JSON, and I optimized its SEO.",
+      "technologies": ["HTML", "CSS", "Bootstrap", "Javascript", "JSON"],
+      "urlgit": "https://github.com/SN-101/online-store",
+      "urlsite": "https://sn-101.github.io/Online-Store/"
     }
   ],
+
   "certifications_data": [
     {
       "name": "Digital Marketing Certification",

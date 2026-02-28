@@ -29,8 +29,11 @@
       "Bootstrap",
       "Tailwind CSS",
       "MySQL",
+      "XAMPP",
       "Git",
-      "Github"
+      "Github",
+      "PHPMyADMIN",
+      "Access"
     ],
     "soft": [
       "إدارة المشاريع",
@@ -104,6 +107,22 @@
       "technologies": ["HTML", "CSS", "Javascript", "JSON"],
       "urlgit": "github.com/SN-101/new-portfolio",
       "urlsite": "sn-101.github.io/new-portfolio/"
+    },
+
+    {
+      "name": "EPRIM",
+      "description": "قمت بتصميم وتطوير موقع ويب رسمي للمدرسة المهنية لعلوم الحاسوب والإدارة، حيث أنشأت منصة متعددة اللغات ومتجاوبة باستخدام React.js، واكتسبت خبرة في التعامل مع React.js.",
+      "technologies": ["React", "Tailwind CSS"],
+      "urlgit": "https://github.com/SN-101/EPRIM",
+      "urlsite": "https://eprim.netlify.app/"
+    },
+
+    {
+      "name": "متجر إلكتروني",
+      "description": "قمت بتطوير موقع للتجارة الإلكترونية باستخدام HTML و Bootstrap و JS. يتميز الموقع بسهولة التخصيص، وسهولة الحجز، وتعدد الصفحات، ودعم لغات متعددة باستخدام JSON، وقمت بتحسين محركات البحث الخاصة به.",
+      "technologies": ["HTML", "CSS", "Bootstrap", "Javascript", "JSON"],
+      "urlgit": "https://github.com/SN-101/online-store",
+      "urlsite": "https://sn-101.github.io/Online-Store/"
     }
   ],
   "certifications_data": [

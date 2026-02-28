@@ -185,12 +185,12 @@ class CVManager {
                 <div class="item-header">
                     <div>
                         <div class="item-title">${project.name}</div>
-                        ${project.urlgit ? `<div class="item-company">
+                        ${project.urlgit ? `<a href="${project.urlgit}" target="_blank" class="item-company">
                             <i class="fas fa-external-link-alt"></i> ${project.urlgit}
-                        </div>` : ''}
-                        ${project.urlsite ? `<div class="item-company">
+                        </a>` : ''}<br>
+                        ${project.urlsite ? `<a href="${project.urlsite}" target="_blank" class="item-company">
                             <i class="fas fa-external-link-alt"></i> ${project.urlsite}
-                        </div>` : ''}
+                        </a>` : ''}
                     </div>
                 </div>
                 <div class="item-description">${project.description}</div>
